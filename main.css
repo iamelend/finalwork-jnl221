@@ -1,0 +1,172 @@
+
+
+body {
+	margin: 0px auto;
+	font-family: trebuchet, serif;
+}
+a:link {
+	color: indianred;
+	text-decoration: underline;
+	text-decoration: color;
+}
+a:visited {
+	color: blueviolet;
+	text-decoration: none;
+}
+a:hover {
+	color:darked;
+	text-decoration: none;
+}
+
+.site-banner {
+	background-color: steelblue;
+	font-style: italic;
+	font-size: 14px;
+	font-family: verdana, sans-serif;
+	color:black;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-left:0px;
+	margin-right: 0px;
+}
+.section {
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-left: 70px;
+
+}
+
+.wrapper1 {
+    font-family: trebuchet, sans-serif;
+    max-width: 1150px;
+	font-size: 25px;
+	line-height: 38px;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+.deck {
+	font-size: 40px;
+	font-family: trebuchet, sans-serif;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 0px;
+	font-weight: bolder ;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: lightblue;
+	padding: 10px 10px;
+	line-height: 60px;
+}
+.introtexts {
+	margin-top: 0px;
+}
+
+.byline {
+	margin-left: 70px;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family: gil, sans-serif;
+	color: slategrey;
+	font-size: 23px;
+}
+.date {
+	font-family: gil, sans-serif;
+	color: steelblue;
+	font-size: 20px;
+	margin-left: 70px;
+	margin-bottom: 0px;
+}
+.vaccination{
+	width: 100%;
+	max-width: 1060px;
+	margin: 10px auto;
+}
+.photocaption {
+	color:darkgray;
+	font-size: 20px;
+	margin-top: 0px;
+	font-family: georgia, sans-serif;
+
+}
+.vizone {
+	width: 100%;
+	background-color: whitesmoke;
+}
+
+.viztwo {
+	width: 100%;
+	background-color: whitesmoke;
+}
+.vizthree {
+	width: 100%;
+	background-color: whitesmoke;
+}
+
+.textimage {
+	font-family: trebuchet, sans-serif;
+    max-width: 1150px;
+	font-size: 25px;
+	line-height: 38px;
+	margin: 10px auto;
+
+}
+.secondcap {
+	font-size: 40px;
+	font-family: trebuchet, sans-serif;
+	font-weight: bolder ;
+	line-height: 60px;
+	max-width: 1150px;
+	margin-top:70px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: lightblue;
+}
+.finaltext {
+	font-family: trebuchet, sans-serif;
+    max-width: 1150px;
+	font-size: 25px;
+	line-height: 38px;
+	margin: 10px auto;
+
+}
+.datawrapper1 {
+	width: 100%;
+	background-color: whitesmoke;
+	border-radius: 6px;
+	padding-bottom: 40px;
+}
+.page-footer {
+	font-family: gill, sans-serif ;
+	font-size: 20px;
+	color:white;
+	background-color: steelblue;
+}
+
+.page-footer {
+	padding-bottom: 20px;
+	border-bottom-color: steelblue;
+	border-bottom-style: solid;
+	border-bottom-widht: 2px;
+	margin-bottom: 0px;
+	padding: 20px;
+}
+.ul {
+	list-style-type: none;
+	font-weight: bold;
+	size: 70px;
+}
+
+@media (max-width:700px) {
+	.wrapper1{
+		grid-template-columns: 1fr;
+		margin: 0px auto;
+	}
+	.introtexts {
+		max-width:700px;
+		margin:0px auto;
+	}
+}
